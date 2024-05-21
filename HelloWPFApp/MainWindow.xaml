@@ -16,8 +16,9 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="238,66,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-        <RadioButton Content="Hello Button" HorizontalAlignment="Left" Margin="238,76,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <RadioButton Grid.Column="1" Content="Goodbye Button" HorizontalAlignment="Left" Margin="77,76,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <RadioButton Name="HelloButton" Content="Hello" HorizontalAlignment="Left" Margin="238,76,0,0" Grid.Row="1" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton Name="GoodbyeButton" Grid.Column="1" Content="Goodbye" HorizontalAlignment="Left" Margin="77,76,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Button Content="Display" HorizontalAlignment="Left" Margin="380,210,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Click="Button_Click"/>
 
     </Grid>
 </Window>

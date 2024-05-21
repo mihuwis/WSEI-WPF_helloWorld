@@ -20,5 +20,10 @@ namespace HelloWPFApp
         {
             InitializeComponent();
         }
+
+        private void Button_Click()
+        {
+
+        }
     }
 }
